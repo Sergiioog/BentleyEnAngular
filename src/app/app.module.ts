@@ -19,10 +19,15 @@ import { ImagenComponent } from './components/header/cabecera/imagen/imagen.comp
 import { WhyComponent } from './components/body/index/why/why.component';
 import { SentenceComponent } from './components/body/index/sentence/sentence.component';
 import { CarsComponent } from './components/body/index/cars/cars.component';
-import { NewsletterComponent } from './components/body/index/newsletter/newsletter.component';
 import { Cars1Component } from './components/body/index/cars/cars1/cars1.component';
 import { Cars2Component } from './components/body/index/cars/cars2/cars2.component';
 import { Cars3Component } from './components/body/index/cars/cars3/cars3.component';
+import { FoundingComponent } from './components/body/about/founding/founding.component';
+import { GrowthComponent } from './components/body/about/growth/growth.component';
+import { FeatureComponent } from './components/body/contact/feature/feature.component';
+import { BlogheadComponent } from './components/body/bloghome/bloghead/bloghead.component';
+import { BlogbodyComponent } from './components/body/bloghome/blogbody/blogbody.component';
+import { BlogfooterComponent } from './components/body/bloghome/blogfooter/blogfooter.component';
 
 @NgModule({
   declarations: [
@@ -43,10 +48,15 @@ import { Cars3Component } from './components/body/index/cars/cars3/cars3.compone
     WhyComponent,
     SentenceComponent,
     CarsComponent,
-    NewsletterComponent,
     Cars1Component,
     Cars2Component,
     Cars3Component,
+    FoundingComponent,
+    GrowthComponent,
+    FeatureComponent,
+    BlogheadComponent,
+    BlogbodyComponent,
+    BlogfooterComponent,
 
   ],
   imports: [

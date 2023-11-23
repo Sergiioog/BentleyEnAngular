@@ -15,8 +15,6 @@ import { CabeceraComponent } from './components/header/cabecera/cabecera.compone
 import { BotonComponent } from './components/body/index/boton/boton.component';
 import { BloghomeComponent } from './components/body/bloghome/bloghome.component';
 import { BlogpostComponent } from './components/body/blogpost/blogpost.component';
-import { PortfoliooverviewComponent } from './components/body/portfoliooverview/portfoliooverview.component';
-import { PortfolioitemComponent } from './components/body/portfolioitem/portfolioitem.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +31,6 @@ import { PortfolioitemComponent } from './components/body/portfolioitem/portfoli
     BotonComponent,
     BloghomeComponent,
     BlogpostComponent,
-    PortfoliooverviewComponent,
-    PortfolioitemComponent
 
   ],
   imports: [

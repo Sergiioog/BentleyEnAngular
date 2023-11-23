@@ -15,6 +15,14 @@ import { CabeceraComponent } from './components/header/cabecera/cabecera.compone
 import { BotonComponent } from './components/body/index/boton/boton.component';
 import { BloghomeComponent } from './components/body/bloghome/bloghome.component';
 import { BlogpostComponent } from './components/body/blogpost/blogpost.component';
+import { ImagenComponent } from './components/header/cabecera/imagen/imagen.component';
+import { WhyComponent } from './components/body/index/why/why.component';
+import { SentenceComponent } from './components/body/index/sentence/sentence.component';
+import { CarsComponent } from './components/body/index/cars/cars.component';
+import { NewsletterComponent } from './components/body/index/newsletter/newsletter.component';
+import { Cars1Component } from './components/body/index/cars/cars1/cars1.component';
+import { Cars2Component } from './components/body/index/cars/cars2/cars2.component';
+import { Cars3Component } from './components/body/index/cars/cars3/cars3.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +39,14 @@ import { BlogpostComponent } from './components/body/blogpost/blogpost.component
     BotonComponent,
     BloghomeComponent,
     BlogpostComponent,
+    ImagenComponent,
+    WhyComponent,
+    SentenceComponent,
+    CarsComponent,
+    NewsletterComponent,
+    Cars1Component,
+    Cars2Component,
+    Cars3Component,
 
   ],
   imports: [

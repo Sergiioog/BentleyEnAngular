@@ -15,6 +15,7 @@ import { CabeceraComponent } from './components/header/cabecera/cabecera.compone
 import { BotonComponent } from './components/body/index/boton/boton.component';
 import { BloghomeComponent } from './components/body/bloghome/bloghome.component';
 import { BlogpostComponent } from './components/body/blogpost/blogpost.component';
+import { ImagenComponent } from './components/header/cabecera/imagen/imagen.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { BlogpostComponent } from './components/body/blogpost/blogpost.component
     BotonComponent,
     BloghomeComponent,
     BlogpostComponent,
+    ImagenComponent,
 
   ],
   imports: [

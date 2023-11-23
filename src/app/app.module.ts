@@ -12,6 +12,9 @@ import { AboutComponent } from './components/body/about/about.component';
 import { ContactComponent } from './components/body/contact/contact.component';
 import { FaqComponent } from './components/body/faq/faq.component';
 import { CabeceraComponent } from './components/header/cabecera/cabecera.component';
+import { BotonComponent } from './components/body/index/boton/boton.component';
+import { BloghomeComponent } from './components/body/bloghome/bloghome.component';
+import { BlogpostComponent } from './components/body/blogpost/blogpost.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { CabeceraComponent } from './components/header/cabecera/cabecera.compone
     AboutComponent,
     ContactComponent,
     FaqComponent,
-    CabeceraComponent
+    CabeceraComponent,
+    BotonComponent,
+    BloghomeComponent,
+    BlogpostComponent
   ],
   imports: [
     BrowserModule,

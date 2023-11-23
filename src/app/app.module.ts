@@ -25,6 +25,9 @@ import { Cars3Component } from './components/body/index/cars/cars3/cars3.compone
 import { FoundingComponent } from './components/body/about/founding/founding.component';
 import { GrowthComponent } from './components/body/about/growth/growth.component';
 import { FeatureComponent } from './components/body/contact/feature/feature.component';
+import { BlogheadComponent } from './components/body/bloghome/bloghead/bloghead.component';
+import { BlogbodyComponent } from './components/body/bloghome/blogbody/blogbody.component';
+import { BlogfooterComponent } from './components/body/bloghome/blogfooter/blogfooter.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +54,9 @@ import { FeatureComponent } from './components/body/contact/feature/feature.comp
     FoundingComponent,
     GrowthComponent,
     FeatureComponent,
+    BlogheadComponent,
+    BlogbodyComponent,
+    BlogfooterComponent,
 
   ],
   imports: [

@@ -22,6 +22,9 @@ import { CarsComponent } from './components/body/index/cars/cars.component';
 import { Cars1Component } from './components/body/index/cars/cars1/cars1.component';
 import { Cars2Component } from './components/body/index/cars/cars2/cars2.component';
 import { Cars3Component } from './components/body/index/cars/cars3/cars3.component';
+import { FoundingComponent } from './components/body/about/founding/founding.component';
+import { GrowthComponent } from './components/body/about/growth/growth.component';
+import { FeatureComponent } from './components/body/contact/feature/feature.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +48,9 @@ import { Cars3Component } from './components/body/index/cars/cars3/cars3.compone
     Cars1Component,
     Cars2Component,
     Cars3Component,
+    FoundingComponent,
+    GrowthComponent,
+    FeatureComponent,
 
   ],
   imports: [
